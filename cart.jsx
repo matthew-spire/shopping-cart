@@ -108,6 +108,7 @@ const Products = () => {
     setCart([...cart, ...item]);
     // doFetch(query);
   };
+  
   const deleteCartItem = (index) => {
     let newCart = cart.filter((item, i) => index != i);
     setCart(newCart);
